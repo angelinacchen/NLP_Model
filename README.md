@@ -31,6 +31,8 @@ The model uses annotated text data for training and evaluation, formatted as fol
 ("Anyone leaving main campus at 7:30pm on Friday?", {"entities": [[15, 26, "origin"], [27, 33, "time"], [37, 43, "date"]]})
 ```
 
+The entities the model is looking for are: date, time, destination (dest), origin, spam message (spam), reply (rep), someone messaging about leaving immediately (rn)
+
 ## How To Run
 
 Training_Data.txt: This text file contains annotated text data used to train the model.
