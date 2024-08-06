@@ -2,7 +2,7 @@
 
 This repository contains the NLP model component of the RIDEmory project. The NLP model is designed to extract and interpret ride information from GroupMe messages, providing users with seamless ride-sharing details.
 
-> **Note:** The full RIDEmory project, which includes other features and components, can be found at this [link](https://github.com/project-emory/RIDEmory).
+> **Note:** The full RIDEmory project, which includes other features and components, can be found at this [link](https://github.com/project-emory/RIDEmory) and is explain below.
 
 ## Table of Contents
 
