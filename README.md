@@ -29,7 +29,19 @@ The model uses annotated text data for training and evaluation, formatted as fol
 
 ```python
 ("Anyone leaving main campus at 7:30pm on Friday?", {"entities": [[15, 26, "origin"], [27, 33, "time"], [37, 43, "date"]]})
-```python
+```
+
+## How To Run
+
+Training_Data.txt: This text file contains annotated text data used to train the model.
+Export_Excel: This file showcases the entities found in test messages and then exports the results to an Excel file. 
+Here is an example:
+
+![exceldoc](https://github.com/user-attachments/assets/b579e131-84ec-4252-ac70-b693cef50a53)
+
+Accuracy_Test: This file tests the accuracy of the model; Accuracy: 83%
+NER_SpaCy: This file contain the NLP model that is continuously being trained when new training data is added to the Training_Data.txt file. The batch sizes are batch_sizes = compounding(4.0, 32.0, 1.001).
+The model is saved in the NER_Output folder. 
 
 # RIDEmory 🚙
 
