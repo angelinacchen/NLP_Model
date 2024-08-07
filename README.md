@@ -57,7 +57,7 @@ The model uses annotated text data for training and evaluation, formatted as fol
 
 ### Exporting Results:
 
-- **File:** `Export_Excel`
+- **File:** `Export_Test`
 - **Description:** This file showcases the entities found in test messages and then exports the results to an Excel file.
 - **Example:**
 
