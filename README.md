@@ -77,15 +77,13 @@ The model uses annotated text data for training and evaluation, formatted as fol
 ### Steps to Run
 
 1. Ensure you have Python and spaCy installed. You can install spaCy using pip:
-
    ```bash
    pip install spacy
-```
-
+   ```
 2. Download and install the English language model:
   ```bash
    python -m spacy download en_core_web_sm
-```
+  ```
 
 3. Train the model by executing the training script:
   ```bash
