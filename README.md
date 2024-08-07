@@ -71,7 +71,7 @@ The model uses annotated text data for training and evaluation, formatted as fol
 
 ### Model Training:
 
-- **File:** `NER_SpaCy`
+- **File:** `NLP_Model`
 - **Description:** This file contains the NLP model that is continuously being trained when new training data is added to the `Training_Data.txt` file. The model is saved in the `NER_Output` folder.
 
 ### Steps to Run
@@ -89,7 +89,7 @@ The model uses annotated text data for training and evaluation, formatted as fol
 
 3. Train the model by executing the training script:
   ```bash
-   python NER_SpaCy.py
+   python NLP_Model.py
 ```
 
 4. Test the model by running the accuracy test script:
